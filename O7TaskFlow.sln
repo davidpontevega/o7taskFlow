@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6C7F64EA-A62B-496E-B71C-991013C35FF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "O7TaskFlow.Domain", "src\O7TaskFlow.Domain\O7TaskFlow.Domain.csproj", "{8E4F7CD9-2ED8-403A-98EE-3C9713310922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "O7TaskFlow.Application", "src\O7TaskFlow.Application\O7TaskFlow.Application.csproj", "{DD806629-D9A8-4F82-AA5C-39139C9BE1D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "O7TaskFlow.Infrastructure", "src\O7TaskFlow.Infrastructure\O7TaskFlow.Infrastructure.csproj", "{27188AC8-DFD8-49EC-A94D-EE38FD0217A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "O7TaskFlow.Persistence", "src\O7TaskFlow.Persistence\O7TaskFlow.Persistence.csproj", "{65C28C53-078D-40A3-BEE1-8B0C6DB1B941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "O7TaskFlow.API", "src\O7TaskFlow.API\O7TaskFlow.API.csproj", "{8EB98D8D-250E-408C-8EDE-D4D7154836A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E4F7CD9-2ED8-403A-98EE-3C9713310922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E4F7CD9-2ED8-403A-98EE-3C9713310922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E4F7CD9-2ED8-403A-98EE-3C9713310922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E4F7CD9-2ED8-403A-98EE-3C9713310922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD806629-D9A8-4F82-AA5C-39139C9BE1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD806629-D9A8-4F82-AA5C-39139C9BE1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD806629-D9A8-4F82-AA5C-39139C9BE1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD806629-D9A8-4F82-AA5C-39139C9BE1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27188AC8-DFD8-49EC-A94D-EE38FD0217A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27188AC8-DFD8-49EC-A94D-EE38FD0217A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27188AC8-DFD8-49EC-A94D-EE38FD0217A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27188AC8-DFD8-49EC-A94D-EE38FD0217A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65C28C53-078D-40A3-BEE1-8B0C6DB1B941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C28C53-078D-40A3-BEE1-8B0C6DB1B941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C28C53-078D-40A3-BEE1-8B0C6DB1B941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C28C53-078D-40A3-BEE1-8B0C6DB1B941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB98D8D-250E-408C-8EDE-D4D7154836A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB98D8D-250E-408C-8EDE-D4D7154836A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB98D8D-250E-408C-8EDE-D4D7154836A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB98D8D-250E-408C-8EDE-D4D7154836A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E4F7CD9-2ED8-403A-98EE-3C9713310922} = {6C7F64EA-A62B-496E-B71C-991013C35FF8}
+		{DD806629-D9A8-4F82-AA5C-39139C9BE1D8} = {6C7F64EA-A62B-496E-B71C-991013C35FF8}
+		{27188AC8-DFD8-49EC-A94D-EE38FD0217A8} = {6C7F64EA-A62B-496E-B71C-991013C35FF8}
+		{65C28C53-078D-40A3-BEE1-8B0C6DB1B941} = {6C7F64EA-A62B-496E-B71C-991013C35FF8}
+		{8EB98D8D-250E-408C-8EDE-D4D7154836A8} = {6C7F64EA-A62B-496E-B71C-991013C35FF8}
+	EndGlobalSection
+EndGlobal
